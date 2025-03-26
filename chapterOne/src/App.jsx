@@ -1,5 +1,6 @@
 import './App.css'
-
+import mycar from './clss'
+import { hello1 } from './function'
 function App() {
 
   let name = 'React'
@@ -12,8 +13,14 @@ function App() {
 }
 function Demo() {
   console.log('Demo Component')
+  console.log(mycar.show());
+  console.log(hello1());
+
   return (
-    <h3>This is Demo App</h3>
+    <>
+      <h3>This is Demo App</h3>
+      <h2>hello</h2>
+    </>
   )
 }
 
